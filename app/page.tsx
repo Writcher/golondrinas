@@ -41,6 +41,7 @@ export default function Home() {
       <div className="relative w-screen">
         <section ref={ref2} className="flex flex-col items-center justify-center h-screen text-white z-2">
           <h2 className="text-4xl font-bold">Servicios</h2>
+          <h3>Aca van las cosas que incluye la estadia en la cabaña (pileta, wifi, tele, etc)</h3>
         </section>
       </div>
       <AnimatedBackgroundSecond />
@@ -48,6 +49,7 @@ export default function Home() {
       <div className="relative w-screen">
         <section ref={ref3} className="flex flex-col items-center justify-center h-screen text-white z-4">
           <h2 className="text-4xl font-bold">Actividades</h2>
+          <h3>Aca van actividades que hacer en potrerillos (rafting, bodegas, cosas que ustedes recomienden)</h3>
         </section>
       </div>
       <AnimatedBackgroundThird />
@@ -69,6 +71,7 @@ export default function Home() {
       <div className="relative w-screen">
         <section ref={ref6} className="flex flex-col items-center justify-center h-screen text-white z-10">
           <h2 className="text-4xl font-bold">Faq</h2>
+          <h3>Aca van preguntas que les hagan frecuentemente los clientes y las respuestas correspondientes</h3>
         </section>
       </div>
       <AnimatedBackgroundSixth />
@@ -76,6 +79,7 @@ export default function Home() {
       <div className="relative w-screen">
         <section ref={ref7} className="flex flex-col items-center justify-center h-screen text-white z-12">
           <h2 className="text-4xl font-bold">Contacto</h2>
+          <h3>Aca va la informacion de contacto (whatsapp, instagram, facebook, email)</h3>
         </section>
       </div>
     </main>

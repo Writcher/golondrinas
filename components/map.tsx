@@ -44,7 +44,7 @@ export default function Location() {
                     >
                         <h2 className="text-lg md:text-2xl font-medium">¿Dónde Estamos?</h2>
                     </Divider>
-                    <h3 className="text-xs md:mb-12">
+                    <h3 className="text-xs md:text-base md:mb-12">
                         Las cabañas están ubicadas en Las Golondrinas s/n, en la zona de El Salto, Potrerillos, a tan solo 65 km de la ciudad de Mendoza.
                         Con una ubicacion privilegiada, las Cabañas Las Golondrinas ofrecen una experiencia única de naturaleza y paz, con una vista panorámica sin obstrucciones de la Cordillera de los Andes.
                     </h3>
@@ -58,7 +58,7 @@ export default function Location() {
                     >
                         <h2 className="text-lg md:text-2xl font-medium">¿Cómo Llegar?</h2>
                     </Divider>
-                    <h3 className="text-xs">
+                    <h3 className="text-xs md:text-base">
                         Ubicado en el departamento de Luján de Cuyo a 65 km de la ciudad de Mendoza, el valle de Potrerillos es accesible tanto por la Ruta Internacional N°7, que conecta Argentina con el vecino país Chile, como por
                         la Ruta Nacional N°82, que transita el margen derecho del Río Mendoza, atravesando Cacheuta para desembocar en una vista majestuosa del dique Potrerillos. Desde ambas rutas es posible acceder a la Villa Potrerillos, cuya entrada
                         posee una rotonda donde se puede encontrar una estación YPF. Al tomar la salida señalizada Valle del Sol, el camino pasa la estación de policía local a mano derecha y continua unos kilómetros hasta una nueva rotonda,
