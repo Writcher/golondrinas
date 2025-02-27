@@ -15,6 +15,7 @@ import Nav from "@/components/nav";
 import ImageCarousel from "@/components/photodisplay";
 import Location from '@/components/map';
 import Reviews from "@/components/reviews";
+import Contacts from '@/components/contact';
 
 
 export default function Home() {
@@ -78,8 +79,7 @@ export default function Home() {
       {/* Contenido Sección 7 */}
       <div className="relative w-screen">
         <section ref={ref7} className="flex flex-col items-center justify-center h-screen text-white z-12">
-          <h2 className="text-4xl font-bold">Contacto</h2>
-          <h3>Aca va la informacion de contacto (whatsapp, instagram, facebook, email)</h3>
+          <Contacts/>
         </section>
       </div>
     </main>
