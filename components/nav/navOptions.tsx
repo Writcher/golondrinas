@@ -1,3 +1,4 @@
+import { NavProps } from "@/lib/types/navProps";
 import { Button } from "@mui/material"
 import { useTranslations } from "next-intl";
 
@@ -9,15 +10,7 @@ export default function NavMenu({
     ref5,
     ref6,
     ref7
-}: {
-    ref1: React.RefObject<HTMLDivElement | null>,
-    ref2: React.RefObject<HTMLDivElement | null>,
-    ref3: React.RefObject<HTMLDivElement | null>,
-    ref4: React.RefObject<HTMLDivElement | null>,
-    ref5: React.RefObject<HTMLDivElement | null>,
-    ref6: React.RefObject<HTMLDivElement | null>,
-    ref7: React.RefObject<HTMLDivElement | null>
-}) {
+}: NavProps) {
     const setScrollPosition = (sectionRef: React.RefObject<HTMLDivElement | null>) => {
         sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     };

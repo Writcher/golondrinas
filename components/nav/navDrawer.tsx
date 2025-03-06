@@ -2,6 +2,7 @@ import { Button, Drawer, IconButton } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { NavProps } from "@/lib/types/navProps";
 
 export default function NavDrawer({
     ref1,
@@ -11,15 +12,7 @@ export default function NavDrawer({
     ref5,
     ref6,
     ref7
-}: {
-    ref1: React.RefObject<HTMLDivElement | null>,
-    ref2: React.RefObject<HTMLDivElement | null>,
-    ref3: React.RefObject<HTMLDivElement | null>,
-    ref4: React.RefObject<HTMLDivElement | null>,
-    ref5: React.RefObject<HTMLDivElement | null>,
-    ref6: React.RefObject<HTMLDivElement | null>,
-    ref7: React.RefObject<HTMLDivElement | null>
-}) {
+}: NavProps) {
     const [drawerOpen, setDrawerOpen] = useState(false);
     
     const setScrollPosition = (sectionRef: React.RefObject<HTMLDivElement | null>) => {
