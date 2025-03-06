@@ -1,0 +1,33 @@
+{   
+    "nav": {
+        "galeria": "Galery",
+        "cabañas": "Cabins",
+        "actividades": "Activities",
+        "ubicacion": "Location",
+        "reseñas": "Reviews",
+        "faq": "FAQ",
+        "contacto": "Contact"
+    },
+    "location": {
+        "title1": "Where Are We?",
+        "title2": "How to Get Here?",
+        "text1": "The cabins are located at Las Golondrinas n/n, in the El Salto area of Potrerillos, just 65 km from the city of Mendoza. With a privileged location, Cabañas Las Golondrinas offer an unique experience of nature and tranquility, featuring an unobstructed panoramic view of the Andes Mountains.",
+        "text2": "Located in the Luján de Cuyo department, 65 km from the city of Mendoza, the Potrerillos Valley is accessible via both National Route 7, which connects Argentina with neighboring Chile, and National Route 82, which runs along the right bank of the Mendoza River, passing through Cacheuta before opening up to a breathtaking view of the Potrerillos Dam. From either route, you can reach Villa Potrerillos, where the entrance features a roundabout with a YPF gas station. Taking the exit marked Valle del Sol, the road passes the local police station on the right and continues for a few kilometers until reaching another roundabout. Taking the right exit from there leads to the town of El Salto. Las Golondrinas Street is accessible from Avenida Los Cóndores, located on the right.",
+        "maplink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.8731896695203!2d-69.28611342364744!3d-32.954357273590134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967ded2b9443aa57%3A0xc527258c67afaf20!2sCaba%C3%B1as%20Las%20Golondrinas!5e0!3m2!1sen!2sus&hl=en"
+    },
+    "reviews": {
+        "title": "Reviews",
+        "en": "on",
+        "review1": "Beautiful cabins, they welcome you with everything impeccable. Very nice pool, covered garage and grill. Both Monica and Julio are very kind people who are available at all times. Don't hesitate to visit these cabins. They won't regret it. 10/10. The best view of El Salto",
+        "review2": "Very nice place, the owners are very accessible and well prepared. The cabin is well equipped and the pool is a very pleasant space!",
+        "review3": "The place is very quiet, the cabins comfortable, with a pool. The attention of Monica and Julio was excellent. The place is very well maintained, with details to have a great time. The mattresses are extremely comfortable, and quality details. It has two grills and tables outside for barbecue. The view of the mountain range is wonderful.",
+        "review4": "Beautiful cabins. They have all the services and the owners take great care of you. The view of the mountains is wonderful and accompanies you all day.",
+        "review5": "Excellent stay. We had a very cold and snowy weekend and the owner solved it for us with an extra stove. The cabin for two is very warm. The bed and bedding 10 points! Excellent communication and location.",
+        "review6": "Very nice place, its surroundings are fantastic. The cabins are very comfortable and complete. It is attended by its owners who are very pleasant and attentive. Highly recommended."
+    },
+    "contact": {
+        "title": "Contact and Reservations",
+        "phone": "Phone:",
+        "email": "Email:"
+    }
+}

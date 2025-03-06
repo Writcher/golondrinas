@@ -15,8 +15,10 @@
     "@mui/material": "^6.4.5",
     "framer-motion": "^12.4.4",
     "next": "15.1.7",
+    "next-intl": "^3.26.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-flagpack": "1.0.0",
     "react-scroll": "^1.9.2",
     "tailwindcss-textshadow": "^2.1.3"
   },
