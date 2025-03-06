@@ -1,8 +1,8 @@
-import { Button, ButtonGroup, ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper } from "@mui/material";
-import { FlagIcon } from "react-flag-kit";
+import { Button, ButtonGroup, ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper, useMediaQuery } from "@mui/material";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useRef, useState } from "react";
 import { setUserLocale } from "@/services/locale";
+import Flag from "react-flagpack";
 
 export default function LanguageSelect() {
     const anchorRef = useRef<HTMLDivElement>(null);
@@ -22,9 +22,11 @@ export default function LanguageSelect() {
         };
         setOpen(false);
     };
+
     const handleToggle = () => {
         setOpen((prevOpen) => !prevOpen);
     };
+
     const handleClose = (event: Event) => {
         if (
             anchorRef.current &&
@@ -35,12 +37,23 @@ export default function LanguageSelect() {
 
         setOpen(false);
     };
+    
     return (
         <>
             <div className='flex h-full w-25'>
                 <ButtonGroup variant="outlined" aria-label="lang" disableElevation ref={anchorRef}>
-                    <Button sx={{ border: "0px" }} className='!text-black' disableElevation>
-                        <FlagIcon code={options[selectedIndex] === 0 ? 'ES' : options[selectedIndex] === 1 ? 'GB' : 'AR'} />
+                    <Button sx={{
+                        border: "0px",
+                        opacity: 1,
+                        pointerEvents: selectedIndex === 0 ? "none" : "auto",
+                        backgroundColor: selectedIndex === 0 ? "transparent" : "",
+                        '&.Mui-disabled': {
+                            border: "none",
+                            backgroundColor: "transparent",
+                            color: 'black',
+                        }
+                    }} className='!text-black' disableElevation disableRipple disableTouchRipple disabled={selectedIndex === 0}>
+                        <Flag code={options[selectedIndex] === 0 ? 'ES' : 'GB-UKM'} size="M" hasBorder={false} gradient="real-circular" className="rounded-lg border border-black"/>
                     </Button>
                     <Button sx={{ border: "0px" }} size="small" className='!text-black' onClick={handleToggle}>
                         <ArrowDropDownIcon />
@@ -59,8 +72,9 @@ export default function LanguageSelect() {
                             style={{
                                 transformOrigin:
                                     placement === 'bottom' ? 'center top' : 'center bottom',
+                                boxShadow: "none"
                             }}
-                            className='!bg-yellow-400 !mt-1'
+                            className='!bg-yellow-400'
                         >
                             <Paper>
                                 <ClickAwayListener onClickAway={handleClose}>
@@ -72,7 +86,7 @@ export default function LanguageSelect() {
                                                 selected={index === selectedIndex}
                                                 onClick={(event) => handleMenuItemClick(event, index)}
                                             >
-                                                <FlagIcon code={option === 0 ? 'ES' : option === 1 ? 'GB' : 'AR'} className='my-2 mx-6' />
+                                                <Flag code={option === 0 ? 'ES' : 'GB-UKM'} hasBorder={false} gradient="real-circular" size="M" className="rounded-lg border border-black my-2 mx-6" />
                                             </MenuItem>
                                         ))}
                                     </MenuList>

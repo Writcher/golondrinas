@@ -14,6 +14,17 @@ export default function Nav({
     ref6,
     ref7
 }: NavProps) {
+
+    const refs = {
+        ref1,
+        ref2,
+        ref3,
+        ref4,
+        ref5,
+        ref6,
+        ref7
+      };
+
     return (
         <div className="fixed top-0 left-0 right-0 z-10 h-[15%] md:h-[10%] flex flex-row justify-between bg-yellow-400 md:px-10">
             {/* Logo */}
@@ -25,11 +36,11 @@ export default function Nav({
             <LanguageSelect />
             {/* Mobile Drawer */}
             <div className="md:hidden flex items-center mr-4">
-                <NavDrawer ref1={ref1} ref2={ref2} ref3={ref3} ref4={ref4} ref5={ref5} ref6={ref6} ref7={ref7} />
+                <NavDrawer {...refs} />
             </div>
             {/* Desktop Menu */}
             <div className='hidden md:flex flex-row gap-2 items-center overflow-x-auto'>
-                <NavMenu ref1={ref1} ref2={ref2} ref3={ref3} ref4={ref4} ref5={ref5} ref6={ref6} ref7={ref7} />
+                <NavMenu {...refs} />
             </div>
         </div>
     );

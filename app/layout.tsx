@@ -16,6 +16,18 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cabañas Las Golondrinas",
+  description: "Disfruta de una estadía única en Cabañas Las Golondrinas, rodeado de naturaleza y tranquilidad, con una vista panorámica sin obstrucciones de la Cordillera de los Andes.",
+  keywords: "cabañas, turismo, naturaleza, descanso, Las Golondrinas, Potrerillos, Mendoza, montaña, vistas, pileta",
+  icons: {
+    icon: "/favicon.ico"
+  },
+  openGraph: {
+    title: "Cabañas Las Golondrinas",
+    description: "Disfruta de una estadía única en Cabañas Las Golondrinas, rodeado de naturaleza y tranquilidad, con una vista panorámica sin obstrucciones de la Cordillera de los Andes.",
+    images: "",  // Ruta a una imagen representativa
+    url: "", // dominio final
+    type: "website"
+  },
 };
 
 export default async function RootLayout({

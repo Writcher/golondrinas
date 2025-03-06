@@ -35,9 +35,9 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
-      react-flag-kit:
-        specifier: ^1.1.1
-        version: 1.1.1(react@19.0.0)
+      react-flagpack:
+        specifier: 1.0.0
+        version: 1.0.0(react@19.0.0)
       react-scroll:
         specifier: ^1.9.2
         version: 1.9.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -1189,6 +1189,9 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
+  flagpack-core@1.1.2:
+    resolution: {integrity: sha512-brm/LJf/xxiwRnjdThPsxaRZsbcN0fjPX4WMdKfuwJYOt3pdVw1pfP2dTBh743qqkw4CQzXTfEWjRDN0KvZ/qA==}
+
   flat-cache@4.0.1:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
     engines: {node: '>=16'}
@@ -1875,11 +1878,11 @@ packages:
     peerDependencies:
       react: ^19.0.0
 
-  react-flag-kit@1.1.1:
-    resolution: {integrity: sha512-sgelSGSl0HxSL8lMM1TEBidgiGV2hOi+GaLNKeg10aBnL07vpwKvmfILlc1SzOdVyH48NElFyMj4NQn8F+/FHw==}
-    engines: {node: '>=14'}
+  react-flagpack@1.0.0:
+    resolution: {integrity: sha512-sYpEmD/4eUk2SkNZrMC/q1vuXobhy8BdQQ127rvm75BE85krIezOsW9/Jp7WBQUpmwJw7vZFZgPFdLp/pgfKIw==}
+    deprecated: this package has been deprecated
     peerDependencies:
-      react: ^16.6.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.*
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -3578,6 +3581,8 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
+  flagpack-core@1.1.2: {}
+
   flat-cache@4.0.1:
     dependencies:
       flatted: 3.3.3
@@ -4269,8 +4274,9 @@ snapshots:
       react: 19.0.0
       scheduler: 0.25.0
 
-  react-flag-kit@1.1.1(react@19.0.0):
+  react-flagpack@1.0.0(react@19.0.0):
     dependencies:
+      flagpack-core: 1.1.2
       react: 19.0.0
 
   react-is@16.13.1: {}
