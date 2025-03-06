@@ -1,4 +1,3 @@
-import { useMediaQuery } from '@mui/material';
 import ReviewCard from './reviewsCard';
 import { useTranslations } from 'next-intl';
 
