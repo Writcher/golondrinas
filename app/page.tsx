@@ -11,7 +11,7 @@ import {
   AnimatedBackgroundSixth,
 } from "@/components/background";
 
-import Nav from "@/components/nav";
+import Nav from "@/components/nav/nav";
 import ImageCarousel from "@/components/photodisplay";
 import Location from '@/components/map';
 import Reviews from "@/components/reviews";

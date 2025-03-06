@@ -1,0 +1,11 @@
+{   
+    "nav": {
+        "galeria": "Galery",
+        "cabañas": "Cabins",
+        "actividades": "Activities",
+        "ubicacion": "Location",
+        "reseñas": "Reviews",
+        "faq": "FAQ",
+        "contacto": "Contact"
+    }
+}
