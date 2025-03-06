@@ -24,5 +24,10 @@
         "review4": "Beautiful cabins. They have all the services and the owners take great care of you. The view of the mountains is wonderful and accompanies you all day.",
         "review5": "Excellent stay. We had a very cold and snowy weekend and the owner solved it for us with an extra stove. The cabin for two is very warm. The bed and bedding 10 points! Excellent communication and location.",
         "review6": "Very nice place, its surroundings are fantastic. The cabins are very comfortable and complete. It is attended by its owners who are very pleasant and attentive. Highly recommended."
+    },
+    "contact": {
+        "title": "Contact and Reservations",
+        "phone": "Phone:",
+        "email": "Email:"
     }
 }

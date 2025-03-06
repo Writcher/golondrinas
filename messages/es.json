@@ -24,5 +24,10 @@
         "review4": "Hermosas cabañas. Tienen todos los servicios y los dueños te atienden súper bien. La vista a las montañas es maravillosa y te acompaña todo el día.",
         "review5": "Excelente estadía. Caímos un finde de mucho frío y nieve y el dueño nos resolvió con una estufa extra. Muy cálida la cabaña para dos. La cama y ropa de cama 10 puntos! Excelente comunicación y ubicación.",
         "review6": "Muy lindo lugar, su entorno es fantástico. Las cabañas son muy cómodas y completas. Lo atienden sus dueños que son muy agradables y atentos. Muy recomendable."
+    },
+    "contact": {
+        "title": "Contacto y Reservas",
+        "phone": "Teléfono:",
+        "email": "Correo Electrónico:"
     }
 }

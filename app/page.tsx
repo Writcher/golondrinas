@@ -14,7 +14,7 @@ import Nav from "@/components/nav/nav";
 import Gallery from "@/components/gallery/gallery";
 import Location from '@/components/location/location';
 import Reviews from "@/components/reviews/reviews";
-import Contacts from '@/components/contact';
+import Contacts from '@/components/contact/contact';
 
 
 export default function Home() {
