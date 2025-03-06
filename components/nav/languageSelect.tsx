@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper, useMediaQuery } from "@mui/material";
+import { Button, ButtonGroup, ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper } from "@mui/material";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useRef, useState } from "react";
 import { setUserLocale } from "@/services/locale";

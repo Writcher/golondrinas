@@ -15,8 +15,6 @@ export default function Reviews() {
     { name: 'Maximiliano Olivera', source: 'Google', rating: 5, text: translation('review6') },
   ];
 
-  const isDesktop = useMediaQuery('(min-width:600px)');
-
   return (
     <div className="flex flex-col h-[80%] md:h-[60%] md:gap-8 w-full items-center justify-center">
       <h2 className="text-2xl font-semibold mt-[15%] md:mt-0">{translation("title")}</h2>
