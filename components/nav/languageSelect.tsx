@@ -2,7 +2,7 @@ import { Button, ButtonGroup, ClickAwayListener, Grow, MenuItem, MenuList, Paper
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useRef, useState } from "react";
 import { setUserLocale } from "@/services/locale";
-import Flag from "react-flagpack";
+import ReactCountryFlag from "react-country-flag";
 
 export default function LanguageSelect() {
     const anchorRef = useRef<HTMLDivElement>(null);
@@ -37,7 +37,7 @@ export default function LanguageSelect() {
 
         setOpen(false);
     };
-    
+
     return (
         <>
             <div className='flex h-full w-25'>
@@ -53,7 +53,9 @@ export default function LanguageSelect() {
                             color: 'black',
                         }
                     }} className='!text-black' disableElevation disableRipple disableTouchRipple disabled={selectedIndex === 0}>
-                        <Flag code={options[selectedIndex] === 0 ? 'ES' : 'GB-UKM'} size="M" hasBorder={false} gradient="real-circular" className="rounded-lg border border-black"/>
+                        <div className="flex rounded-lg border border-black h-[20px] w-[30px] overflow-hidden items-center justify-center">
+                            <ReactCountryFlag countryCode={options[selectedIndex] === 0 ? 'ES' : 'GB'} svg className="!h-[20px] !w-[40px]" />
+                        </div>
                     </Button>
                     <Button sx={{ border: "0px" }} size="small" className='!text-black' onClick={handleToggle}>
                         <ArrowDropDownIcon />
@@ -86,7 +88,9 @@ export default function LanguageSelect() {
                                                 selected={index === selectedIndex}
                                                 onClick={(event) => handleMenuItemClick(event, index)}
                                             >
-                                                <Flag code={option === 0 ? 'ES' : 'GB-UKM'} hasBorder={false} gradient="real-circular" size="M" className="rounded-lg border border-black my-2 mx-6" />
+                                                <div className="flex rounded-lg border border-black h-[20px] w-[30px] overflow-hidden items-center justify-center">
+                                                    <ReactCountryFlag countryCode={option === 0 ? 'ES' : 'GB'} svg className="!h-[20px] !w-[40px]" />
+                                                </div>
                                             </MenuItem>
                                         ))}
                                     </MenuList>
