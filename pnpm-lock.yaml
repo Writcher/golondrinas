@@ -32,12 +32,12 @@ importers:
       react:
         specifier: ^19.0.0
         version: 19.0.0
+      react-country-flag:
+        specifier: ^3.1.0
+        version: 3.1.0(react@19.0.0)
       react-dom:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
-      react-flagpack:
-        specifier: 1.0.0
-        version: 1.0.0(react@19.0.0)
       react-scroll:
         specifier: ^1.9.2
         version: 1.9.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -1189,9 +1189,6 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  flagpack-core@1.1.2:
-    resolution: {integrity: sha512-brm/LJf/xxiwRnjdThPsxaRZsbcN0fjPX4WMdKfuwJYOt3pdVw1pfP2dTBh743qqkw4CQzXTfEWjRDN0KvZ/qA==}
-
   flat-cache@4.0.1:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
     engines: {node: '>=16'}
@@ -1873,16 +1870,16 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
+  react-country-flag@3.1.0:
+    resolution: {integrity: sha512-JWQFw1efdv9sTC+TGQvTKXQg1NKbDU2mBiAiRWcKM9F1sK+/zjhP2yGmm8YDddWyZdXVkR8Md47rPMJmo4YO5g==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=16'
+
   react-dom@19.0.0:
     resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
       react: ^19.0.0
-
-  react-flagpack@1.0.0:
-    resolution: {integrity: sha512-sYpEmD/4eUk2SkNZrMC/q1vuXobhy8BdQQ127rvm75BE85krIezOsW9/Jp7WBQUpmwJw7vZFZgPFdLp/pgfKIw==}
-    deprecated: this package has been deprecated
-    peerDependencies:
-      react: ^16.8.*
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -3581,8 +3578,6 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  flagpack-core@1.1.2: {}
-
   flat-cache@4.0.1:
     dependencies:
       flatted: 3.3.3
@@ -4269,15 +4264,14 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
+  react-country-flag@3.1.0(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+
   react-dom@19.0.0(react@19.0.0):
     dependencies:
       react: 19.0.0
       scheduler: 0.25.0
-
-  react-flagpack@1.0.0(react@19.0.0):
-    dependencies:
-      flagpack-core: 1.1.2
-      react: 19.0.0
 
   react-is@16.13.1: {}
 

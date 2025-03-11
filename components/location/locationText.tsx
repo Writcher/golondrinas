@@ -25,7 +25,7 @@ export default function LocationText() {
                         },
                     }}
                 >
-                    <h2 className="text-lg md:text-2xl font-medium">{translation('title1')}</h2>
+                    <h2 className="text-base md:text-2xl font-medium">{translation('title1')}</h2>
                 </Divider>
                 <h3 className="text-xs md:text-base md:mb-12">{translation('text1')}</h3>
                 <Divider
@@ -36,7 +36,7 @@ export default function LocationText() {
                         },
                     }}
                 >
-                    <h2 className="text-lg md:text-2xl font-medium">{translation('title2')}</h2>
+                    <h2 className="text-base md:text-2xl font-medium">{translation('title2')}</h2>
                 </Divider>
                 <h3 className="text-xs md:text-base">{translation('text2')}</h3>
                 <Divider
