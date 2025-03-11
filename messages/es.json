@@ -5,7 +5,7 @@
         "actividades": "Actividades",
         "ubicacion": "Ubicación",
         "reseñas": "Reseñas",
-        "faq": "FAQ",
+        "faq": "Preguntas Frecuentes",
         "contacto": "Contacto"
     },
     "location": {
@@ -29,5 +29,35 @@
         "title": "Contacto y Reservas",
         "phone": "Teléfono:",
         "email": "Correo Electrónico:"
+    },
+    "cabins": {
+        "title1": "El Complejo",
+        "text1-1": "El complejo cuenta con 4 cabañas, diseñadas para ofrecer comodidad y una excelente ubicación, 3 cabañas para 6 personas y 1 para 3 personas, perfectas para disfrutar de una estadía tranquila.",
+        "text1-2": "Todas nuestras cabañas tienen vistas panorámicas a la imponente Cordillera de los Andes, creando el ambiente ideal para relajarte y disfrutar de la naturaleza.",
+        "text1-3": "El complejo ofrece una piscina compartida, parrillas comunes y estacionamiento, todo dispuesto para que tu experiencia sea lo más agradable posible.",
+        "item1-1": "Estacionamiento",
+        "item1-2": "Parrillas",
+        "item1-3": "Pileta",
+        "item1-4": "Wi-Fi",
+        "item1-5": "Recepción",
+        "title2": "Las Cabañas",
+        "text2": "Cabañas acojedoras equipadas con todo lo necesario para hacer que tu estadía sea lo más comoda posible.",
+        "item2-1": "Cocina Completa",
+        "item2-2": "Calefacción",
+        "item2-3": "Televisión",
+        "item2-4": "Ropa Blanca",
+        "poemtitle": "Cantando al Río",
+        "poem1": "Tu fuerza y tu nobleza",
+        "poem2": "dan a Mendoza grandeza.",
+        "poem3": "Has transformado un desierto",
+        "poem4": "en un oasis de vida.",
+        "poem5": "Bellas viñas y alamedas",
+        "poem6": "coronadas de montañas.",
+        "poem7": "Seres que por ti sueñan",
+        "poem8": "en esta provincia bella.",
+        "poem9": "Agua que riega este suelo",
+        "poem10": "y lo siembra con trabajo",
+        "poem11": "para agasajar al que llega",
+        "poem12": "con su vino y delicadeza."
     }
 }

@@ -15,7 +15,7 @@ import Gallery from "@/components/gallery/gallery";
 import Location from '@/components/location/location';
 import Reviews from "@/components/reviews/reviews";
 import Contacts from '@/components/contact/contact';
-
+import Cabins from '@/components/cabins/cabins';
 
 export default function Home() {
 
@@ -36,7 +36,6 @@ export default function Home() {
     ref6,
     ref7
   };
-
   return (
     <main className='overflow-x-auto'>
       <Nav {...refs} />
@@ -47,14 +46,12 @@ export default function Home() {
       <AnimatedBackgroundFirst />
       {/* Cabins */}
       <section ref={ref2} className="relative flex flex-col items-center justify-center h-screen text-white">
-        <h2 className="text-4xl font-bold">Servicios</h2>
-        <h3>Aca van las cosas que incluye la estadia en la cabaña (pileta, wifi, tele, etc)</h3>
+        <Cabins />
       </section>
       <AnimatedBackgroundSecond />
       {/* Activities */}
       <section ref={ref3} className="relative flex flex-col items-center justify-center h-screen text-white">
-        <h2 className="text-4xl font-bold">Actividades</h2>
-        <h3>Aca van actividades que hacer en potrerillos (rafting, bodegas, cosas que ustedes recomienden)</h3>
+        pending
       </section>
       <AnimatedBackgroundThird />
       {/* Location */}
@@ -69,8 +66,7 @@ export default function Home() {
       <AnimatedBackgroundFifth />
       {/* faq */}
       <section ref={ref6} className="relative flex flex-col items-center justify-center h-screen text-white">
-        <h2 className="text-4xl font-bold">Faq</h2>
-        <h3>Aca van preguntas que les hagan frecuentemente los clientes y las respuestas correspondientes</h3>
+        pending
       </section>
       <AnimatedBackgroundSixth />
       {/* Contact */}
