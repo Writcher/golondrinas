@@ -18,7 +18,7 @@ export default function GalleryRoulette({ index, src, openFullscreen }: GalleryR
                         alt={`Slide ${index + 1}`}
                         onClick={() => openFullscreen()}
                         loading="lazy"
-                        className="w-full h-full object-center object-fill"
+                        className="w-full h-full object-center md:object-fill object-cover"
                     />
                 </motion.div>
             </AnimatePresence>

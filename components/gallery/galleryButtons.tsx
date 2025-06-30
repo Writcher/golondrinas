@@ -16,7 +16,7 @@ export default function GalleryButtons({ nextSlide, prevSlide, openFullscreen }:
                 <ChevronRightIcon />
             </Button>
             {/* Botón FullScreen */}
-            <Button aria-label="Full Screen" className="!absolute top-0 right-0 transform !text-black !bg-yellow-400 hover:!bg-yellow-500 !mt-6 !mr-2" onClick={() => openFullscreen()}>
+            <Button aria-label="Full Screen" className="!absolute top-[2.5%] right-0 transform !text-black !bg-yellow-400 hover:!bg-yellow-500 !mt-6 !mr-2" onClick={() => openFullscreen()}>
                 <FullscreenIcon />
             </Button>
         </>

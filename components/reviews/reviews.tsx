@@ -15,8 +15,8 @@ export default function Reviews() {
   ];
 
   return (
-    <div className="flex flex-col h-[80%] md:h-[60%] md:gap-8 w-full items-center justify-center">
-      <h2 className="text-2xl font-semibold mt-[15%] md:mt-0">{translation("title")}</h2>
+    <div className="flex flex-col h-[80%] md:h-[60%] md:gap-8 w-full items-center justify-center pt-40 md:pt-0">
+      <h2 className="text-2xl font-semibold">{translation("title")}</h2>
       <div className="hidden md:flex flex-row gap-8 h-full w-full items-center justify-center">
         <ReviewCard {...reviews[0]}/>
         <ReviewCard {...reviews[1]}/>

@@ -9,8 +9,8 @@ export default function Activities() {
 
     return (
         <div className="flex flex-col md:flex-row h-full w-full">
-            <div className='flex flex-col md:flex-row gap-2 md:gap-12 h-full md:w-[50%] px-4 pt-32 text-gray-800'>
-                <div className="flex flex-col gap-2 h-full md:w-[50%]">
+            <div className='flex flex-col md:flex-row gap-16 md:gap-12 h-full md:w-[50%] px-4 pt-44 text-gray-800'>
+                <div className="flex flex-col gap-2 md:h-full md:w-[50%]">
                     <Divider
                         sx={{
                             "&::before, &::after": {
@@ -30,7 +30,7 @@ export default function Activities() {
                         <p className="text-xs md:text-base">{<PlayArrowIcon className="inline-block mr-2" fontSize="small" />} Potrerillos Explorer</p>
                     </div>
                 </div>
-                <div className="flex flex-col gap-2 h-full md:w-[50%]">
+                <div className="flex flex-col gap-2 md:h-full md:w-[50%]">
                     <Divider
                         sx={{
                             "&::before, &::after": {
