@@ -16,8 +16,8 @@ export default {
           2: '#b0c4de', // Second - montaña lejana
           3: '#8ca1af', // Third - montaña media
           4: '#6c7a89', // Fourth - intermedia rocosa
-          5: '#4d6f52', // Fifth - vegetación de altura
-          6: '#2f4f4f', // Sixth - base boscosa
+          5: '#a17c4e', // Fifth - vegetación de altura
+          6: '#6e5841', // Sixth - base boscosa
         },
       },
       textShadow: {
