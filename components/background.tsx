@@ -13,7 +13,7 @@ export function AnimatedBackgroundFirst() {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-screen bg-gray-500"
+            className="fixed top-0 left-0 w-full h-screen bg-mountain-1"
             style={{ clipPath }}
         />
     );
@@ -30,7 +30,7 @@ export function AnimatedBackgroundSecond() {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-screen bg-gray-400"
+            className="fixed top-0 left-0 w-full h-screen bg-mountain-2"
             style={{ clipPath }}
         />
     );
@@ -47,7 +47,7 @@ export function AnimatedBackgroundThird() {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-screen bg-gray-600"
+            className="fixed top-0 left-0 w-full h-screen bg-mountain-3"
             style={{ clipPath }}
         />
     );
@@ -64,7 +64,7 @@ export function AnimatedBackgroundFourth() {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-screen bg-lime-700"
+            className="fixed top-0 left-0 w-full h-screen bg-mountain-4"
             style={{ clipPath }}
         />
     );
@@ -81,7 +81,7 @@ export function AnimatedBackgroundFifth() {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-screen bg-yellow-500"
+            className="fixed top-0 left-0 w-full h-screen bg-mountain-5"
             style={{ clipPath }}
         />
     );
@@ -98,7 +98,7 @@ export function AnimatedBackgroundSixth() {
     
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-screen bg-green-800"
+            className="fixed top-0 left-0 w-full h-screen bg-mountain-6"
             style={{ clipPath }}
         />
     );

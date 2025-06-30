@@ -1,18 +1,16 @@
 import { useTranslations } from "next-intl"
-import Image from "next/image"
 
 export default function CabinsPoem() {
 
     const translation = useTranslations("cabins")
 
     return (
-        <div className="hidden md:flex flex-col gap-4 h-full w-[50%] px-4 pt-32 items-end justify-start">
-            <Image
-                src="/back1.png"
-                alt="background mountain"
+        <div className="hidden md:flex flex-col gap-4 h-full w-[50%] px-4 pt-32 items-end justify-start text-gray-800">
+            <img
+                src="/mountain-river.avif"
+                alt="background mountain with river"
                 height={500}
                 width={500}
-                priority={false}
             />
             <p className="relative right-[65%] bottom-[50%] font-medium font-shadow italic text-lg">
                 {translation("poemtitle")}

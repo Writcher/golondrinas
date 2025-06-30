@@ -59,5 +59,23 @@
         "poem10": "y lo siembra con trabajo",
         "poem11": "para agasajar al que llega",
         "poem12": "con su vino y delicadeza."
+    },
+    "activities": {
+        "title1": "Actividades en el Área",
+        "text1-1": "Para disfrutar de actividades al aire libre, el área de Potrerillos ofrece múltiples opciones. Desde senderismo por los alrededores montañosos, hasta actividades acuaticas en el Río Mendoza.",
+        "text2-1": "Rafting en el Río Mendoza:",
+        "title2": "Gastronomia",
+        "text1-2": "El área de Potrerillos, y de Mendoza en general cuenta con una gran oferta gastronómica. Desde restaurantes hasta bodegas que brindan degustaciones de vinos locales.",
+        "text2-2": "Entre las recomendaciones de Cabañas Las Golondrinas se encuentran:",
+        "poemtitle-2": "Río Mendoza",
+        "poem1-2": "Río Mendoza acunado en el Dique Potrerillos",
+        "poem2-2": "me gusta mirarte y redescubrirte",
+        "poem3-2": "como hacen los niños, imaginarte.",
+        "poem4-2": "Pensar historias es mi deleite",
+        "poem5-2": "Como en un cuento de hadas y duendes.",
+        "poem6-2": "Me gusta dejar volar",
+        "poem7-2": "mi mente llena de versos,",
+        "poem8-2": "hundirme en un bello sueño",
+        "poem9-2": "de esos que se sueñan con los ojos abiertos."
     }
 }

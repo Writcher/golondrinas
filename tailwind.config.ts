@@ -11,6 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mountain: {
+          1: '#d0dff0', // First - cima nevada
+          2: '#b0c4de', // Second - montaña lejana
+          3: '#8ca1af', // Third - montaña media
+          4: '#6c7a89', // Fourth - intermedia rocosa
+          5: '#4d6f52', // Fifth - vegetación de altura
+          6: '#2f4f4f', // Sixth - base boscosa
+        },
       },
       textShadow: {
         DEFAULT: '2px 2px 4px rgba(0, 0, 0, 0.5)', // Custom text shadow

@@ -7,10 +7,12 @@ import GalleryRoulette from "./galleryRoulette";
 const Fullscreen = lazy(() => import("./fullscreen/fullscreen"));
 
 const images = [
-    "/photos/cabañas-las-golondrinas-1-y-2.jpg",
-    "/photos/cabañas-las-golondrinas-3.jpg",
-    "/photos/cabañas-las-golondrinas-master-bedroom.jpg",
-    "/photos/cabañas-las-golondrinas-second-bedroom.jpg",
+    "/photos/1.avif",
+    "/photos/2.avif",
+    "/photos/3.avif",
+    "/photos/4.avif",
+    "/photos/5.avif",
+    "/photos/6.avif",
 ];
 
 export default function Gallery() {

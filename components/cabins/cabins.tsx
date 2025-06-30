@@ -17,7 +17,7 @@ export default function Cabins() {
 
     return (
         <div className="flex flex-col md:flex-row h-full w-full">
-            <div className='flex flex-col gap-2 md:gap-4 h-full md:w-[50%] px-4 pt-32'>
+            <div className='flex flex-col gap-2 md:gap-4 h-full md:w-[50%] px-4 pt-32 text-gray-800'>
                 <Divider
                     sx={{
                         "&::before, &::after": {

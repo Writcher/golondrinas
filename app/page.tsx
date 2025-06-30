@@ -16,6 +16,7 @@ import Location from '@/components/location/location';
 import Reviews from "@/components/reviews/reviews";
 import Contacts from '@/components/contact/contact';
 import Cabins from '@/components/cabins/cabins';
+import Activities from '@/components/activities/activities';
 
 export default function Home() {
 
@@ -51,7 +52,7 @@ export default function Home() {
       <AnimatedBackgroundSecond />
       {/* Activities */}
       <section ref={ref3} className="relative flex flex-col items-center justify-center h-screen text-white">
-        pending
+        <Activities />
       </section>
       <AnimatedBackgroundThird />
       {/* Location */}
