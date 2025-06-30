@@ -1,6 +1,5 @@
 import { GalleryRouletteProps } from "@/lib/types/galleryProps";
 import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
 
 export default function GalleryRoulette({ index, src, openFullscreen }: GalleryRouletteProps) {
     return (
@@ -14,13 +13,12 @@ export default function GalleryRoulette({ index, src, openFullscreen }: GalleryR
                     transition={{ duration: 0.5 }}
                     className="absolute inset-0"
                 >
-                    <Image
+                    <img
                         src={src}
                         alt={`Slide ${index + 1}`}
-                        fill
-                        style={{ objectFit: 'cover' }}
-                        priority={false}
                         onClick={() => openFullscreen()}
+                        loading="lazy"
+                        className="w-full h-full object-center object-fill"
                     />
                 </motion.div>
             </AnimatePresence>
