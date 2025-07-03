@@ -1,2 +1,9 @@
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://cabañaslasgolondrinas.com.ar
+
+# Sitemaps
+Sitemap: https://cabañaslasgolondrinas.com.ar/sitemap.xml
