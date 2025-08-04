@@ -15,11 +15,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cabañas Las Golondrinas, Potrerillos, Mendoza",
+  title: "Cabañas Las Golondrinas",
   description: "Disfruta de una estadía única en Cabañas Las Golondrinas, rodeado de naturaleza y tranquilidad, con una vista panorámica sin obstrucciones de la Cordillera de los Andes.",
   keywords: [
     "cabañas", "turismo", "naturaleza", "descanso", "Las Golondrinas",
-    "Potrerillos", "Mendoza", "montaña", "vistas", "pileta"
+    "Potrerillos", "Mendoza", "montaña", "vistas", "pileta", "potrerillos", "cabañas en potrerillos",
+    "cabañas en mendoza", "cabañas con pileta", "cabañas con vista a la montaña",
+    "cabañas con pileta en potrerillos", "cabañas con pileta en mendoza",
+    "cabañas con vista a la montaña en potrerillos", "cabañas con vista a la montaña en mendoza",
+    "cabañas con pileta y vista a la montaña", "cabañas con pileta y vista a la montaña en potrerillos"
   ],
   icons: {
     icon: "/favicon.ico"
@@ -31,7 +35,7 @@ export const metadata: Metadata = {
     title: "Cabañas Las Golondrinas, Potrerillos, Mendoza",
     description: "Disfruta de una estadía única en Cabañas Las Golondrinas, rodeado de naturaleza y tranquilidad, con una vista panorámica sin obstrucciones de la Cordillera de los Andes.",
     images: "",  // Ruta a una imagen representativa
-    url: "https://cabañaslasgolondrinas.com.ar", // dominio final
+    url: "https://cabañaslasgolondrinas.com.ar",
     type: "website",
     siteName: "Cabañas Las Golondrinas"
   },
