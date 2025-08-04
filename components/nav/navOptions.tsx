@@ -8,8 +8,7 @@ export default function NavMenu({
     ref3,
     ref4,
     ref5,
-    ref6,
-    ref7
+    ref6
 }: NavProps) {
     const setScrollPosition = (sectionRef: React.RefObject<HTMLDivElement | null>) => {
         sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -34,10 +33,7 @@ export default function NavMenu({
                 <Button onClick={() => setScrollPosition(ref5)} className="!text-black">{translation('reseñas')}</Button>
             </div>
             <div className='flex h-full w-25'>
-                <Button onClick={() => setScrollPosition(ref6)} className="!text-black">{translation('faq')}</Button>
-            </div>
-            <div className='flex h-full w-25'>
-                <Button onClick={() => setScrollPosition(ref7)} className="!text-black">{translation('contacto')}</Button>
+                <Button onClick={() => setScrollPosition(ref6)} className="!text-black">{translation('contacto')}</Button>
             </div>
         </>
     )

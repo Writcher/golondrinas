@@ -10,8 +10,7 @@ export default function NavDrawer({
     ref3,
     ref4,
     ref5,
-    ref6,
-    ref7
+    ref6
 }: NavProps) {
     const [drawerOpen, setDrawerOpen] = useState(false);
     
@@ -69,10 +68,7 @@ export default function NavDrawer({
                         <Button onClick={() => drawerItemClick(ref5)} className="!text-black" fullWidth>{translation('reseñas')}</Button>
                     </div>
                     <div className='flex w-full'>
-                        <Button onClick={() => drawerItemClick(ref6)} className="!text-black" fullWidth>{translation('faq')}</Button>
-                    </div>
-                    <div className='flex w-full'>
-                        <Button onClick={() => drawerItemClick(ref7)} className="!text-black" fullWidth>{translation('contacto')}</Button>
+                        <Button onClick={() => drawerItemClick(ref6)} className="!text-black" fullWidth>{translation('contacto')}</Button>
                     </div>
                 </div>
             </Drawer>

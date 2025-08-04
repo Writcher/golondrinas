@@ -113,13 +113,13 @@ export default function Activities() {
                                 size="small"
                                 disableElevation
                                 fullWidth
-                                onClick={() => openDrawer("Bodega La Rural")}
+                                onClick={() => openDrawer("La Escondida")}
                             >
                                 <PlayArrowIcon
                                     className="inline-block mr-2 text-yellow-400 group-hover:text-gray-800"
                                     fontSize="small"
                                 />
-                                Bodega La Rural {/** https://bodegalarural.com.ar/ */}
+                                La Escondida {/** preguntarle a julio */}
                             </Button>
                             <Button
                                 sx={{ fontSize: {xs: '0.75rem', md: '1rem'}, textTransform: "none"}}
@@ -190,13 +190,13 @@ export default function Activities() {
                                 size="small"
                                 disableElevation
                                 fullWidth
-                                onClick={() => openDrawer("La Escondida")}
+                                onClick={() => openDrawer("Bodega La Rural")}
                             >
                                 <PlayArrowIcon
                                     className="inline-block mr-2 text-yellow-400 group-hover:text-gray-800"
                                     fontSize="small"
                                 />
-                                La Escondida {/** preguntarle a julio */}
+                                Bodega La Rural {/** https://bodegalarural.com.ar/ */}
                             </Button>
                         </div>
                     </div>

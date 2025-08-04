@@ -26,7 +26,6 @@ export default function Home() {
   const ref4 = useRef<HTMLDivElement | null>(null);
   const ref5 = useRef<HTMLDivElement | null>(null);
   const ref6 = useRef<HTMLDivElement | null>(null);
-  const ref7 = useRef<HTMLDivElement | null>(null);
 
   const refs = {
     ref1,
@@ -34,9 +33,9 @@ export default function Home() {
     ref3,
     ref4,
     ref5,
-    ref6,
-    ref7
+    ref6
   };
+  
   return (
     <main className='overflow-x-auto'>
       <Nav {...refs} />
@@ -65,15 +64,11 @@ export default function Home() {
         <Reviews />
       </section>
       <AnimatedBackgroundFifth />
-      {/* faq */}
+      {/* Contacts */}
       <section ref={ref6} className="relative flex flex-col items-center justify-center h-screen text-white">
-        pending
-      </section>
-      <AnimatedBackgroundSixth />
-      {/* Contact */}
-      <section ref={ref7} className="relative flex flex-col items-center justify-center h-screen text-white">
         <Contacts />
       </section>
+      <AnimatedBackgroundSixth />
     </main>
   );
 }

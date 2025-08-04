@@ -77,14 +77,29 @@
         "poem7-2": "my mind full of verses,",
         "poem8-2": "to sink into a beautiful dream,",
         "poem9-2": "one of those dreamed with open eyes.",
+        "drawerWeb": "Official Website",
         "argraftingTitle": "Argentina Rafting",
         "argraftingDescription": "Rafting, kayack, trekking and more nature activities available year-round.",
-        "argraftingWen": "Argentina Rafting Website",
         "poexpTitle": "Potrerillos Explorer",
         "poexpDescription": "Guided mountain outdoor activities available year-round",
-        "poexpWeb": "Potrerillos Explorer Website",
         "cacheutaTitle": "Termas de Cacheuta",
         "cacheutaDescription": "Hotsprings, spa, hotel and restaurant in a unique natural setting.",
-        "cacheutaWeb": "Termas de Cacheuta Website"
+        "laruralTitle": "La Rural Winery",
+        "laruralDescription": "Argentine winery founded at the end of the 19th century in the Maipú Department, Mendoza.",
+        "busTitle": "Wine Bus Tour",
+        "busDescription": "Shared tourist transfer service, operating under the Hop On & Hop Off modality, adapted to the Wine Routes.",
+        "lamadridTitle": "Lamadrid Estate Wine",
+        "lamadridDescription": "Boutique winery in Agrelo, Mendoza, with high-end wines and unique wine tourism experiences.",
+        "viamonteTitle": "Viamonte Winery",
+        "viamonteDescription": "A unique and stunning landscape, high-end wines, and a family committed to and passionate about wine.",
+        "tapizTitle": "Tapiz Winery",
+        "tapizDescription": "Tapiz combines sustainable winemaking traditions with modern innovation.",
+        "escondidaTitle": "La Escondida Mountain Restaurant",
+        "escondidaDescription": "A place to share a good lunch with the family in the mountains.",
+        "email": "Email: ",
+        "phone": "Phone: "
+    },
+    "faq": {
+        "title": "Frequently Asked Questions"
     }
 }

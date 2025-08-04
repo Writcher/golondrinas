@@ -4,7 +4,6 @@ export type NavProps = {
     ref3: React.RefObject<HTMLDivElement | null>,
     ref4: React.RefObject<HTMLDivElement | null>,
     ref5: React.RefObject<HTMLDivElement | null>,
-    ref6: React.RefObject<HTMLDivElement | null>,
-    ref7: React.RefObject<HTMLDivElement | null>
+    ref6: React.RefObject<HTMLDivElement | null>
 }
 

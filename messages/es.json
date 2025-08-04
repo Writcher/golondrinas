@@ -77,14 +77,29 @@
         "poem7-2": "mi mente llena de versos,",
         "poem8-2": "hundirme en un bello sueño",
         "poem9-2": "de esos que se sueñan con los ojos abiertos.",
+        "drawerWeb": "Página Oficial",
         "argraftingTitle": "Argentina Rafting",
         "argraftingDescription": "Rafting, kayack, trekking y más actividades en la naturaleza disponible todo el año.",
-        "argraftingWeb": "Página de Argentina Rafting",
         "poexpTitle": "Potrerillos Explorer",
         "poexpDescription": "Actividades de montaña guiadas al aire libre todo el año",
-        "poexpWeb": "Página de Potrerillos Explorer",
         "cacheutaTitle": "Termas de Cacheuta",
         "cacheutaDescription": "Aguas termales, spa, hotel y restaurante en un entorno natural único.",
-        "cacheutaWeb": "Página de Termas de Cacheuta"
+        "laruralTitle": "Bodega La Rural",
+        "laruralDescription": "Bodega argentina fundada a fines del siglo XIX en el Departamento Maipú, Mendoza.",
+        "busTitle": "Paseo Bus Vitivinícola",
+        "busDescription": "Servicio de Traslados Turísticos Compartido, trabajamos bajo la modalidad de Hop On & Hop Off adaptada a los Caminos del Vino.",
+        "lamadridTitle": "Lamadrid Estate Wine",
+        "lamadridDescription": "Bodega boutique en Agrelo, Mendoza, con vinos de alta gama y experiencias enoturísticas únicas.",
+        "viamonteTitle": "Bodega Viamonte",
+        "viamonteDescription": "Paisaje único e imponente, vinos de Alta Gama y una familia comprometida y apasionada por el vino.",
+        "tapizTitle": "Bodega Tapiz",
+        "tapizDescription": "Tapiz combina tradiciones vinícolas sostenibles con innovación moderna.",
+        "escondidaTitle": "La Escondida Restaurante de Montaña",
+        "escondidaDescription": "Un lugar para compartir en familia un buen almuerzo en la montaña.",
+        "email": "Correo Electronico: ",
+        "phone": "Teléfono: "
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes"
     }
 }

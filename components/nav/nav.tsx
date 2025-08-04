@@ -11,8 +11,7 @@ export default function Nav({
     ref3,
     ref4,
     ref5,
-    ref6,
-    ref7
+    ref6
 }: NavProps) {
 
     const refs = {
@@ -21,8 +20,7 @@ export default function Nav({
         ref3,
         ref4,
         ref5,
-        ref6,
-        ref7
+        ref6
       };
 
     return (
